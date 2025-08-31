@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltura - Premium Solar Power Banks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-sun"></i>
+                <span>VOLTURA</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Power Your Life with
+                    <span class="gradient-text">Solar Energy</span>
+                </h1>
+                <p class="hero-description">
+                    Experience the future of portable power with Voltura's premium solar power banks. 
+                    Sustainable, reliable, and designed for the modern lifestyle.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToProducts()">
+                        <i class="fas fa-bolt"></i>
+                        Explore Products
+                    </button>
+                    <a href="demo.html" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card" id="hero-card">
+                    <img src="Voltura Compact.png" alt="Voltura Solar Power Bank" class="hero-image">
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Product Line</h2>
+                <p class="section-description">Choose the perfect solar power bank for your needs</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Voltura Normal -->
+                <div class="product-card" data-product="compact">
+                    <div class="product-image-container">
+                        <img src="Voltura Compact.png" alt="Voltura Compact" class="product-image">
+                        <div class="product-badge">Most Popular</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Voltura Normal</h3>
+                        <p class="product-description">Perfect for daily use with sleek design and reliable performance</p>
+                        <div class="product-specs">
+                            <div class="spec">
+                                <i class="fas fa-battery-three-quarters"></i>
+                                <span>3000mAh</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-sun"></i>
+                                <span>6W Solar Panel</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>2 Type A & Type C Ports</span>
+                            </div>
+                        </div>
+                        <div class="product-price">₹799</div>
+                        <button class="btn btn-product">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Voltura Premium -->
+                <div class="product-card" data-product="max">
+                    <div class="product-image-container">
+                        <img src="Voltura Max.png" alt="Voltura Max" class="product-image">
+                        <div class="product-badge premium">Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Voltura Premium</h3>
+                        <p class="product-description">Maximum capacity for extended adventures and heavy usage</p>
+                        <div class="product-specs">
+                            <div class="spec">
+                                <i class="fas fa-battery-full"></i>
+                                <span>8000mAh</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-sun"></i>
+                                <span>12W Solar Panel</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Lighting,Type A & C Ports</span>
+                            </div>
+                        </div>
+                        <div class="product-price">₹1999</div>
+                        <button class="btn btn-product">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Voltura Moderate -->
+                <div class="product-card" data-product="pro">
+                    <div class="product-image-container">
+                        <img src="Voltura Pro.png" alt="Voltura Pro" class="product-image">
+                        <div class="product-badge pro">Pro</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Voltura Moderate</h3>
+                        <p class="product-description">Professional grade with advanced features and durability</p>
+                        <div class="product-specs">
+                            <div class="spec">
+                                <i class="fas fa-battery-full"></i>
+                                <span>5000mAh</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-sun"></i>
+                                <span>8W Solar Panel</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Type A & C Ports</span>
+                            </div>
+                        </div>
+                        <div class="product-price">₹1099</div>
+                        <button class="btn btn-product">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Voltura?</h2>
+                <p class="section-description">Advanced technology meets sustainable design</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Harness clean solar energy to reduce your carbon footprint while staying powered up.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Durable Design</h3>
+                    <p>Built to withstand outdoor adventures with IP65 water resistance and shock protection.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Charging</h3>
+                    <p>Quick charge technology ensures your devices are powered up when you need them most.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Smart Technology</h3>
+                    <p>Intelligent power management optimizes charging efficiency and protects your devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to power up with Voltura? Contact us for more information or support.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7a13141c153a0c15160e0f081b54191517">[email&#160;protected]</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Solar Street, Energy City</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-sun"></i>
+                    <span>VOLTURA</span>
+                </div>
+                <p>&copy; 2024 Voltura. All rights reserved. Powering the future with solar energy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
